@@ -1,0 +1,24 @@
+{
+  "name": "mpesa",
+  "version": "1.0.0",
+  "description": "This is a access_token retrieval server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedane/Mpesa-api.git"
+  },
+  "author": "dedane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dedane/Mpesa-api/issues"
+  },
+  "homepage": "https://github.com/dedane/Mpesa-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "prettyjson": "^1.2.1"
+  }
+}
