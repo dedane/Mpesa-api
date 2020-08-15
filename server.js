@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true}));
 app.post('/hooks/mpesa', (req,res) => {
     console.log('...........Received M-Pesa webhook...............');
 
-    console.log(preetyjson.render(req.body, options));
+    console.log(prettyjson.render(req.body, options));
     console.log('......................');
 
     let message = {
